@@ -117,6 +117,7 @@ a.button {
 
 
 
+
 .accordion {
   background-color: #eee;
   color: #444;
@@ -127,6 +128,7 @@ a.button {
   border: none;
   outline: none;
   transition: 0.4s;
+  margin: auto;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
