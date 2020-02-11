@@ -3,7 +3,8 @@
         "Weather" : "Sunny", 
         "lowerBound" : 90, 
         "upperBound" : 120, 
-        "message" : "Sunny outside"
+        "message" : "Sunny outside", 
+        "image": "static/images/lorempixel.city.1.jpeg"
     }, 
     {
         "Weather" : "Warm", 
