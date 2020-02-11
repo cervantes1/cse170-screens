@@ -26,7 +26,7 @@
 <body>
     <!--Weather image-->
     <!--Contains simply the image reflecting the current weather-->
-    <div>
+    <div class="weatherIMG">
         <img src="images/windy-cloud-sketch-icon-vector-10118200.jpg" alt="Cold" class="center">
     </div>
 
@@ -37,17 +37,21 @@
         <h3>Expect a mixed day - might want to bring a jacket</h3>
     </div>
 
-
+    <div class="chart">
+        <canvas id="myChart" width="400" height="400"></canvas>
+    </div>
 
     <!--Drop down-->
     <!--Contains chart reflecting user's weather preparation-->
+    <!--
     <div>
         <button class="accordion">Weather Analysis</button>
-        <!--Weather chart-->
         <div class="panel">
             <canvas id="myChart" width="400" height="400"></canvas>
         </div>
     </div>
+    -->
+
 
     <!--ChartJS script-->
     <script>
