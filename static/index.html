@@ -3,12 +3,16 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/introHCI.css?v=1.0">
+
+
 
 <title>Weather Pal</title>
 <meta name="description" content="Weather Pal">
 <meta name="author" content="SitePoint">
 
-<link rel="stylesheet" href="css/introHCI.css?v=1.0">
 
 <!--Nav bar -->
 <div class="topnav">
@@ -34,6 +38,28 @@
         <canvas id="myChart" width="400" height="400"></canvas>
     </div>
 
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+
+        let masterChart = new Chart(myChart, {
+            type: 'bar', 
+            data:{
+                labels: ['Sunny', 'Warm', 'Mild', 'Cold', 'Freezing'], 
+                datasets: [{
+                    label: 'Satisfaction', 
+                    data:[
+                        60,
+                        87,
+                        65,
+                        78,
+                        98
+                    ]
+                }]
+            }, 
+            options:{}
+        });
+    </script>
+
     <!--Drop down-->
     <!--Contains chart reflecting user's weather preparation-->
     <div>
@@ -42,6 +68,10 @@
         <div class="panel">
             <img src="images/lorempixel.city.1.jpeg" alt="Test" class="center">
         </div>
+
+
+
+        
     </div>
 
 
