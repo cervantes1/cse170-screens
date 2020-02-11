@@ -11,6 +11,8 @@
 <link rel="stylesheet" href="css/introHCI.css?v=1.0">
 
 
+
+<!--Nav bar -->
 <div class="topnav">
     <a href="./index.html" class="button">Home</a>
     <a href="./screen2.html" class="button">Settings</a>
@@ -19,21 +21,23 @@
 
 
 </head>
-
 <body>
+    <!--Weather image-->
     <div>
         <img src="images/windy-cloud-sketch-icon-vector-10118200.jpg" alt="Cold" class="center">
     </div>
+
+    <!--Weather Content-->
     <div>
-
-
         <h1>63</h1>
         <h3>Expect a mixed day - might want to bring a jacket</h3>
-
-
+        <canvas id="myChart" width="400" height="400"></canvas>
     </div>
+
+    <!--Drop down-->
     <div>
         <button class="accordion">Weather Analysis</button>
+        <!--Weather chart-->
         <div class="panel">
             <img src="images/lorempixel.city.1.jpeg" alt="Test" class="center">
         </div>
