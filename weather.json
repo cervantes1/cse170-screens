@@ -1,0 +1,32 @@
+[
+    {
+        "Weather" : "Sunny", 
+        "lowerBound" : 90, 
+        "upperBound" : 120, 
+        "message" : "Sunny outside"
+    }, 
+    {
+        "Weather" : "Warm", 
+        "lowerBound" : 80, 
+        "upperBound" : 89, 
+        "message" : "Warm outside"
+    }, 
+    {
+        "Weather" : "Mild", 
+        "lowerBound" : 70, 
+        "upperBound" : 79, 
+        "message" : "Coldish outside"
+    },
+    {
+        "Weather" : "Cold", 
+        "lowerBound" : 60, 
+        "upperBound" : 69, 
+        "message" : "Coldish outside"
+    },
+    {
+        "Weather" : "Freezing", 
+        "lowerBound" : 59, 
+        "upperBound" : 69, 
+        "message" : "Coldish outside"
+    }
+]
