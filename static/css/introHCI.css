@@ -143,3 +143,9 @@ a.button {
   display: none;
   overflow: hidden;
 }
+
+.panel{
+  margin-left: auto;
+  margin-right: auto;  
+  width: 50%;
+}

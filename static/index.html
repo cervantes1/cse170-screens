@@ -46,17 +46,12 @@
         <!--Weather chart-->
         <div class="panel">
             <canvas id="myChart" width="400" height="400"></canvas>
-
         </div>
-
-
-
-        
     </div>
 
+    <!--ChartJS script-->
     <script>
         let myChart = document.getElementById('myChart').getContext('2d');
-
         let masterChart = new Chart(myChart, {
             type: 'bar', 
             data:{
@@ -64,9 +59,9 @@
                 datasets: [{
                     label: 'Satisfaction', 
                     data:[
-                        60,
+                        80,
                         87,
-                        65,
+                        55,
                         78,
                         98
                     ]
@@ -75,6 +70,7 @@
             options:{}
         });
     </script>
+
     <script src="js/scripts.js"></script>
 
 </body>
