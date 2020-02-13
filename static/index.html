@@ -8,6 +8,8 @@
 <link rel="stylesheet" href="css/introHCI.css?v=1.0">
 
 
+<script src="js/scripts.js"></script>
+
 
 <title>Weather Pal</title>
 <meta name="description" content="Weather Pal">
@@ -15,12 +17,47 @@
 
 
 <!--Nav bar -->
+
+
+<div class="container">
+
+    <div class="app-title">
+        <p>Weather</p>
+    </div>
+    <div class="Notification"></div>
+    <div class="weather-Container"> 
+        <div class="weather-icon">
+            <img src="images/windy-cloud-sketch-icon-vector-10118200.jpg">
+        </div>
+        <div class="temperature-value">
+            <p>
+                -°<span>C</span>
+            </p>
+        </div>
+
+        <div class="temperature-description">
+            <p> - </p>
+        </div>
+
+        <div class="location">
+            <p>-</p>
+        </div>
+    </div>
+    <script src="../app.js"></script>
+
+
+</div>
+
+
+
+<!--
+    FROM HERE
+-->
 <div class="topnav">
     <a href="./index.html" class="button">Home</a>
     <a href="./screen2.html" class="button">Settings</a>
     <a href="./feedback.html" class="button">Reflection</a>
 </div>
-
 
 </head>
 <body>
@@ -40,18 +77,6 @@
     <div class="chart">
         <canvas id="myChart" width="400" height="400"></canvas>
     </div>
-
-    <!--Drop down-->
-    <!--Contains chart reflecting user's weather preparation-->
-    <!--
-    <div>
-        <button class="accordion">Weather Analysis</button>
-        <div class="panel">
-            <canvas id="myChart" width="400" height="400"></canvas>
-        </div>
-    </div>
-    -->
-
 
     <!--ChartJS script-->
     <script>
@@ -75,7 +100,6 @@
         });
     </script>
 
-    <script src="js/scripts.js"></script>
 
 </body>
 </html>
