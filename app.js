@@ -43,10 +43,10 @@ http.createServer(app).listen(app.get('port'), function(){
 });
 
 
+console.log("Testing");
 
 
-
-
+/*
 var temperature = document.querySelector(".temperature-value p");
 var location = document.querySelector(".location p");
 
@@ -91,4 +91,4 @@ function getWeather(lat, long){
 function displayWeather(){
   temperature.innerHTML = `${weather.temperature.value}°<span>C</span>`;
 }
-
+*/
